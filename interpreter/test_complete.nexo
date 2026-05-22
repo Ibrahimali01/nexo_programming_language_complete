@@ -1,0 +1,133 @@
+// ===== اختبار شامل للغة نيكسو =====
+
+// 1. المتغيرات والأنواع
+print("=== اختبار المتغيرات ===\n")
+let name = "نيكسو"
+let version = 1.0
+let isAwesome = true
+
+print("اسم اللغة: ")
+print(name)
+print("\n")
+
+print("الإصدار: ")
+print(version)
+print("\n")
+
+print("هل هي رائعة؟ ")
+print(isAwesome)
+print("\n")
+
+// 2. العمليات الحسابية
+print("=== اختبار العمليات الحسابية ===\n")
+let a = 10
+let b = 20
+let sum = a + b
+let product = a * b
+let power = math_pow(2, 3)
+
+print("المجموع: ")
+print(sum)
+print("\n")
+
+print("الضرب: ")
+print(product)
+print("\n")
+
+print("2 أس 3: ")
+print(power)
+print("\n")
+
+// 3. الدوال
+print("=== اختبار الدوال ===\n")
+func add(x: Int, y: Int) -> Int {
+    return x + y
+}
+
+func greet(person: String) -> String {
+    return "مرحباً " + person
+}
+
+let result = add(5, 15)
+print("نتيجة الجمع: ")
+print(result)
+print("\n")
+
+let greeting = greet("أحمد")
+print(greeting)
+print("\n")
+
+// 4. الشروط
+print("=== اختبار الشروط ===\n")
+let age = 25
+
+if age >= 18 {
+    print("أنت بالغ\n")
+} else {
+    print("أنت قاصر\n")
+}
+
+// 5. الحلقات
+print("=== اختبار الحلقات ===\n")
+print("العد من 1 إلى 5:\n")
+for i in 1..6 {
+    print(i)
+    print(" ")
+}
+print("\n\n")
+
+// 6. معالجة النصوص
+print("=== اختبار معالجة النصوص ===\n")
+let text = "نيكسو"
+let upper = str_upper(text)
+let lower = str_lower(text)
+
+print("الأصلي: ")
+print(text)
+print("\n")
+
+print("بأحرف كبيرة: ")
+print(upper)
+print("\n")
+
+print("بأحرف صغيرة: ")
+print(lower)
+print("\n")
+
+// 7. دوال الرياضيات
+print("=== اختبار دوال الرياضيات ===\n")
+let radius = 5
+let pi = math_pi()
+let area = pi * math_pow(radius, 2)
+
+print("نصف القطر: ")
+print(radius)
+print("\n")
+
+print("مساحة الدائرة: ")
+print(area)
+print("\n")
+
+// 8. القوائم
+print("=== اختبار القوائم ===\n")
+let numbers = [1, 2, 3, 4, 5]
+print("القائمة: ")
+print(numbers)
+print("\n")
+
+// 9. الوقت والتاريخ
+print("=== اختبار الوقت ===\n")
+let now = time_now()
+print("الوقت الحالي: ")
+print(now)
+print("\n")
+
+// 10. التحويلات
+print("=== اختبار التحويلات ===\n")
+let numStr = "42"
+let converted = int(numStr)
+print("تحويل النص '42' إلى عدد: ")
+print(converted)
+print("\n")
+
+print("=== انتهى الاختبار ===\n")

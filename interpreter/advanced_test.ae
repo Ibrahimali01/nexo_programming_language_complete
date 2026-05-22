@@ -1,0 +1,13 @@
+let name = "أثير"
+let time = time_now()
+print("مرحباً بك في لغة " + name)
+print("الوقت الحالي هو: " + time)
+
+let radius = 5
+let pi = math_pi()
+let area = pi * math_pow(radius, 2)
+print("مساحة الدائرة بنصف قطر 5 هي:")
+print(area)
+
+let upper_name = str_upper(name)
+print("اسم اللغة بالأحرف الكبيرة: " + upper_name)

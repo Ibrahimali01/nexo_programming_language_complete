@@ -1,0 +1,38 @@
+// اختبار بسيط للغة نيكسو
+
+print("مرحباً بك في نيكسو!\n")
+
+let name = "نيكسو"
+let version = 1.0
+
+print("اسم اللغة: ")
+print(name)
+print("\n")
+
+print("الإصدار: ")
+print(version)
+print("\n")
+
+// العمليات الحسابية
+let x = 10
+let y = 20
+let sum = x + y
+
+print("10 + 20 = ")
+print(sum)
+print("\n")
+
+// دوال الرياضيات
+let sqrt_result = math_sqrt(16)
+print("الجذر التربيعي للعدد 16: ")
+print(sqrt_result)
+print("\n")
+
+// معالجة النصوص
+let text = "hello"
+let upper = str_upper(text)
+print("تحويل 'hello' إلى أحرف كبيرة: ")
+print(upper)
+print("\n")
+
+print("انتهى الاختبار!\n")

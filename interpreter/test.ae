@@ -1,0 +1,6 @@
+let greeting = "أهلاً بالعالم"
+let x = 5
+let y = 10
+print(greeting)
+print("مجموع 5 + 10 هو:")
+print(x + y)
